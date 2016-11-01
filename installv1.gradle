@@ -13,8 +13,8 @@ install {
 
                 // Add your description here
                 name messangisdk
-                description Messangi SDK for platform integration
-                url http://www.messangi.com
+                description 'Messangi SDK for platform integration'
+                url 'http://www.messangi.com'
 
                 // Set your license
                 licenses {
