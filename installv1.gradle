@@ -19,7 +19,7 @@ install {
                 // Set your license
                 licenses {
                     license {
-                        name 'apache2.0'
+                        name 'apache2'
                         url 'https://www.apache.org/licenses/LICENSE-2.0'
                     }
                 }
