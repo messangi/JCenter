@@ -19,21 +19,21 @@ install {
                 // Set your license
                 licenses {
                     license {
-                        name apache2.0
-                        url https://www.apache.org/licenses/LICENSE-2.0
+                        name 'apache2.0'
+                        url 'https://www.apache.org/licenses/LICENSE-2.0'
                     }
                 }
                 developers {
                     developer {
-                        id ogangi
-                        name messangi
-                        email github@messangi.com
+                        id 'ogangi'
+                        name 'messangi'
+                        email 'github@messangi.com'
                     }
                 }
                 scm {
-                    connection https://github.com/messangi/AndroidAppDemo
-                    developerConnection https://github.com/messangi/AndroidAppDemo
-                    url http://www.messangi.com
+                    connection 'https://github.com/messangi/AndroidAppDemo'
+                    developerConnection 'https://github.com/messangi/AndroidAppDemo'
+                    url 'http://www.messangi.com'
 
                 }
             }
