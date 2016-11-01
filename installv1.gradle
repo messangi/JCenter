@@ -1,0 +1,42 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = publishedGroupId                               // Maven Group ID for the artifact
+
+install {
+    repositories.mavenInstaller {
+        // This generates POM.xml with proper parameters
+        pom {
+            project {
+                packaging 'aar'
+                groupId publishedGroupId
+                artifactId artifact
+
+                // Add your description here
+                name messangisdk
+                description Messangi SDK for platform integration
+                url http://www.messangi.com
+
+                // Set your license
+                licenses {
+                    license {
+                        name apache2.0
+                        url https://www.apache.org/licenses/LICENSE-2.0
+                    }
+                }
+                developers {
+                    developer {
+                        id ogangi
+                        name messangi
+                        email github@messangi.com
+                    }
+                }
+                scm {
+                    connection https://github.com/messangi/AndroidAppDemo
+                    developerConnection https://github.com/messangi/AndroidAppDemo
+                    url http://www.messangi.com
+
+                }
+            }
+        }
+    }
+}
