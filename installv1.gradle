@@ -12,28 +12,28 @@ install {
                 artifactId artifact
 
                 // Add your description here
-                name messangisdk
-                description 'Messangi SDK for platform integration'
-                url 'http://www.messangi.com'
+                name libraryName
+                description libraryDescription
+                url siteUrl
 
                 // Set your license
                 licenses {
                     license {
-                        name 'apache2'
-                        url 'https://www.apache.org/licenses/LICENSE-2.0'
+                        name licenseName
+                        url licenseUrl
                     }
                 }
                 developers {
                     developer {
-                        id 'ogangi'
-                        name 'messangi'
-                        email 'github@messangi.com'
+                        id developerId
+                        name developerName
+                        email developerEmail
                     }
                 }
                 scm {
-                    connection 'https://github.com/messangi/AndroidAppDemo'
-                    developerConnection 'https://github.com/messangi/AndroidAppDemo'
-                    url 'http://www.messangi.com'
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
 
                 }
             }
